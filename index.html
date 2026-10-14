@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="google-site-verification" content="8LyqWIbD4WBzvc0MKeKoVrCRxdtpdLySIUa8LGVLQK0"/>
+<!-- Google Analytics is loaded by js/consent.js, only after the visitor accepts -->
+<script src="js/consent.js" defer></script>
+<title>Pariter Consultants | Strategic Advisory &amp; Professional Services</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="js/tailwind-config.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link rel="icon" type="image/png" href="ico.png"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body class="text-on-surface">
+<!-- TopNavBar -->
+<header class="docked full-width top-0 sticky z-50 bg-[#04050ee6] border-b border-outline-variant/30 backdrop-blur-md">
+<div class="flex justify-between items-center w-full px-gutter max-w-container-max mx-auto h-20">
+<a href="index.html" class="flex items-center gap-4">
+<img alt="Pariter" class="h-10 w-10 object-contain" src="partierLogo-white.svg"/>
+<span class="text-headline-sm font-headline-sm font-bold tracking-tight text-primary">Pariter</span>
+</a>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-label-caps font-label-caps text-primary transition-colors duration-200" href="index.html">Home</a>
+<div class="relative">
+<button type="button" class="dropdown-toggle flex items-center gap-1 text-label-caps font-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" data-dropdown-toggle="services-menu" aria-haspopup="true" aria-expanded="false">
+Our Services
+<span class="material-symbols-outlined dropdown-chevron text-[16px]" aria-hidden="true">expand_more</span>
+</button>
+<div class="dropdown-menu absolute top-full left-0 mt-3 w-72 bg-surface-container border border-outline-variant/30 shadow-xl rounded-DEFAULT py-2 z-50" id="services-menu" role="menu">
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="consultancy-services.html">Consultancy Services</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="project-management.html">Project Management</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="party-wall-matters.html">Party Wall Matters</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="legal-surveying-dispute-resolution.html">Legal Surveying &amp; Dispute Resolution</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="expert-witness-services.html">Expert Witness Services</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="property-services.html">Property Services</a>
+</div>
+</div>
+<a class="text-label-caps font-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="contact.html">Contact</a>
+</nav>
+<a href="contact.html" class="hidden md:inline-flex bg-primary text-on-primary px-8 py-3 rounded-DEFAULT font-button text-button hover:bg-on-primary-fixed-variant transition-colors duration-300 active:scale-95 shadow-sm">
+                Contact
+            </a>
+<button type="button" data-mobile-menu-toggle aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation menu" class="md:hidden inline-flex items-center justify-center w-11 h-11 text-primary -mr-2">
+<span class="material-symbols-outlined text-[28px]" aria-hidden="true">menu</span>
+</button>
+</div>
+<div id="mobile-menu" data-mobile-menu class="hidden md:hidden border-t border-outline-variant/30 bg-surface-container">
+<nav class="flex flex-col px-gutter max-w-container-max mx-auto py-4">
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="index.html">Home</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="consultancy-services.html">Consultancy Services</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="project-management.html">Project Management</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="party-wall-matters.html">Party Wall Matters</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="legal-surveying-dispute-resolution.html">Legal Surveying &amp; Dispute Resolution</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="expert-witness-services.html">Expert Witness Services</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="property-services.html">Property Services</a>
+<a class="mt-4 bg-primary text-on-primary px-6 py-3 rounded-DEFAULT font-button text-button text-center shadow-sm" href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-surface">
+<div class="px-gutter max-w-container-max mx-auto w-full grid md:grid-cols-12 gap-element-gap items-center">
+<div class="md:col-span-8 lg:col-span-7">
+<span class="text-label-caps font-label-caps text-on-secondary-container tracking-widest uppercase mb-6 block font-bold">Strategic Partnership</span>
+<h1 class="text-display-lg font-display-lg md:text-display-xl md:font-display-xl text-primary mb-8 leading-tight">
+                        Learning from the past. Shaping the future. Together.
+                    </h1>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="#approach" class="bg-primary text-on-primary px-10 py-4 rounded-DEFAULT font-button text-body-md hover:bg-on-primary-fixed-variant transition-all flex items-center justify-center gap-2 shadow-md">
+                            View Our Approach
+                            <span class="material-symbols-outlined text-[20px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+<a href="consultancy-services.html" class="border border-primary text-primary px-10 py-4 rounded-DEFAULT font-button text-body-md hover:bg-primary-container transition-all flex items-center justify-center">
+                            Our Services
+                        </a>
+</div>
+</div>
+<div class="md:col-span-4 lg:col-span-5 relative hidden md:block">
+<div class="aspect-[4/5] bg-surface-container-high rounded-xl overflow-hidden shadow-2xl">
+<img alt="Manchester Town Hall" class="w-full h-full object-cover" src="img/pariter-hero.png"/>
+</div>
+<div class="absolute -bottom-8 -left-8 bg-surface-container p-8 shadow-2xl border border-primary/10 max-w-[240px]">
+<p class="text-display-lg font-display-lg text-primary leading-none mb-3">20+</p>
+<p class="text-label-caps font-label-caps text-secondary uppercase font-bold leading-relaxed">Years of Combined Expertise</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Approach Section -->
+<section class="py-[120px] bg-surface border-y border-outline-variant/20" id="approach">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid md:grid-cols-12 gap-element-gap">
+<div class="md:col-span-4">
+<h2 class="text-label-caps font-label-caps text-on-secondary-container mb-4 font-bold">APPROACH</h2>
+<h3 class="text-display-lg font-display-lg text-primary">Listening, Understanding, Delivering.</h3>
+</div>
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-10 leading-relaxed">
+                            We approach each commission by listening to you and understanding what your aims and objectives are; where you consider your strengths and weaknesses to be; and ultimately what services you require to help you deliver the right solutions.
+                        </p>
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-12">
+                            By working together with clients we have established a long and proven track record of successful delivery across both public and private sectors.
+                        </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-8 border-t border-outline-variant/30">
+<div>
+<span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="partnership">partner_exchange</span>
+<h4 class="text-headline-sm font-headline-sm text-on-surface mb-2">Shared Vision</h4>
+<p class="text-body-sm font-body-sm text-on-surface-variant">We align our strategies with your long-term goals to ensure every action supports your core mission.</p>
+</div>
+<div>
+<span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="analytics">analytics</span>
+<h4 class="text-headline-sm font-headline-sm text-on-surface mb-2">Evidence Led</h4>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Our solutions are backed by rigorous analysis and a deep understanding of market dynamics.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About / Services Section -->
+<section class="py-[120px] bg-white" id="about">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-label-caps font-label-caps text-[#4b5375] mb-4 font-bold">ABOUT US</h2>
+<h3 class="text-display-lg font-display-lg text-[#0b0e23] max-w-2xl mx-auto">Specialist Strategic &amp; Commercial Advice</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Service Item 1 -->
+<a href="property-services.html" class="block bg-white p-8 border border-[#0b0e23]/15 hover:border-[#0b0e23]/40 transition-all group shadow-sm hover:shadow-xl">
+<span class="text-label-caps font-label-caps text-[#4b5375] group-hover:text-[#0b0e23] transition-colors font-bold">ESTATES</span>
+<h4 class="text-headline-sm font-headline-sm text-[#0b0e23] mt-2 mb-4">Property Services</h4>
+<p class="text-body-sm font-body-sm text-[#4b5375]">Expertise in strategic estates reviews and professional property management to optimize physical assets.</p>
+<div class="mt-6 flex items-center text-[#0b0e23] font-button text-button group-hover:gap-2 transition-all">
+                            Learn more <span class="material-symbols-outlined ml-1 text-[18px]" data-icon="chevron_right">chevron_right</span>
+</div>
+</a>
+<!-- Service Item 2 -->
+<a href="project-management.html" class="block bg-white p-8 border border-[#0b0e23]/15 hover:border-[#0b0e23]/40 transition-all group shadow-sm hover:shadow-xl">
+<span class="text-label-caps font-label-caps text-[#4b5375] group-hover:text-[#0b0e23] transition-colors font-bold">OPERATIONS</span>
+<h4 class="text-headline-sm font-headline-sm text-[#0b0e23] mt-2 mb-4">Programme Leadership</h4>
+<p class="text-body-sm font-body-sm text-[#4b5375]">Driving transformation through structured leadership and robust programme management frameworks.</p>
+<div class="mt-6 flex items-center text-[#0b0e23] font-button text-button group-hover:gap-2 transition-all">
+                            Learn more <span class="material-symbols-outlined ml-1 text-[18px]" data-icon="chevron_right">chevron_right</span>
+</div>
+</a>
+<!-- Service Item 3 -->
+<a href="consultancy-services.html" class="block bg-white p-8 border border-[#0b0e23]/15 hover:border-[#0b0e23]/40 transition-all group shadow-sm hover:shadow-xl">
+<span class="text-label-caps font-label-caps text-[#4b5375] group-hover:text-[#0b0e23] transition-colors font-bold">GROWTH</span>
+<h4 class="text-headline-sm font-headline-sm text-[#0b0e23] mt-2 mb-4">Business Expansion</h4>
+<p class="text-body-sm font-body-sm text-[#4b5375]">Supporting business retention and growth strategies, from capital investment to market positioning.</p>
+<div class="mt-6 flex items-center text-[#0b0e23] font-button text-button group-hover:gap-2 transition-all">
+                            Learn more <span class="material-symbols-outlined ml-1 text-[18px]" data-icon="chevron_right">chevron_right</span>
+</div>
+</a>
+</div>
+<!-- Structured Service List -->
+<div class="mt-20 border-t border-[#0b0e23]/20">
+<a href="consultancy-services.html" class="py-6 flex flex-col md:flex-row md:items-center justify-between border-b border-[#0b0e23]/20 hover:bg-[#0b0e23]/5 transition-colors px-4 -mx-4 rounded-lg">
+<div class="flex flex-col">
+<span class="text-label-caps font-label-caps text-[#4b5375] uppercase font-bold">Improvement</span>
+<span class="text-body-lg font-body-lg text-[#0b0e23] font-semibold">Organisational &amp; Departmental Reviews</span>
+</div>
+<p class="text-body-sm font-body-sm text-[#4b5375] md:max-w-md mt-2 md:mt-0">Holistic analysis of internal structures to boost productivity and quality.</p>
+</a>
+<a href="consultancy-services.html" class="py-6 flex flex-col md:flex-row md:items-center justify-between border-b border-[#0b0e23]/20 hover:bg-[#0b0e23]/5 transition-colors px-4 -mx-4 rounded-lg">
+<div class="flex flex-col">
+<span class="text-label-caps font-label-caps text-[#4b5375] uppercase font-bold">Procurement</span>
+<span class="text-body-lg font-body-lg text-[#0b0e23] font-semibold">Services &amp; Goods Procurement</span>
+</div>
+<p class="text-body-sm font-body-sm text-[#4b5375] md:max-w-md mt-2 md:mt-0">Supporting clients throughout the procurement process to ensure maximum value.</p>
+</a>
+<a href="consultancy-services.html" class="py-6 flex flex-col md:flex-row md:items-center justify-between hover:bg-[#0b0e23]/5 transition-colors px-4 -mx-4 rounded-lg">
+<div class="flex flex-col">
+<span class="text-label-caps font-label-caps text-[#4b5375] uppercase font-bold">Investment</span>
+<span class="text-body-lg font-body-lg text-[#0b0e23] font-semibold">Securing Capital Investment</span>
+</div>
+<p class="text-body-sm font-body-sm text-[#4b5375] md:max-w-md mt-2 md:mt-0">Navigating complex financial landscapes to secure funding for critical infrastructure.</p>
+</a>
+</div>
+</div>
+</section>
+</main>
+<!-- CTA -->
+<section class="bg-surface">
+<div class="w-full px-gutter max-w-container-max mx-auto py-16 md:py-20 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
+<h3 class="text-headline-md md:text-headline-lg font-headline-md text-on-surface font-semibold max-w-2xl">Want to hear more about our services and how we can support you?</h3>
+<a href="contact.html" class="bg-primary text-on-primary px-8 py-3 rounded-DEFAULT font-button text-button hover:bg-on-primary-fixed-variant transition-colors duration-300 active:scale-95 shadow-sm whitespace-nowrap">
+                Contact us
+            </a>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#04050e] border-t border-white/10">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-element-gap w-full px-gutter max-w-container-max mx-auto py-16">
+<div class="md:col-span-4">
+<div class="flex items-center gap-3 mb-6">
+<img alt="Pariter Logo" class="h-8 w-8 object-contain" src="partierLogo-white.svg"/>
+<span class="text-headline-sm font-headline-sm text-white font-bold">Pariter</span>
+</div>
+<p class="text-body-sm font-body-sm text-white/70 max-w-xs">
+                    Professional consultancy services for public and private sector clients focusing on strategic growth and operational excellence.
+                </p>
+</div>
+<div class="md:col-span-2 md:col-start-5">
+<h5 class="text-label-caps font-label-caps text-white mb-6 font-bold">OUR SERVICES</h5>
+<ul class="space-y-3">
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="consultancy-services.html">Consultancy Services</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="project-management.html">Project Management</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="party-wall-matters.html">Party Wall Matters</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="legal-surveying-dispute-resolution.html">Legal Surveying &amp; Dispute Resolution</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="expert-witness-services.html">Expert Witness Services</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="property-services.html">Property Services</a></li>
+</ul>
+</div>
+<div class="md:col-span-3 md:col-start-7">
+<h5 class="text-label-caps font-label-caps text-white mb-6 font-bold">LEGAL</h5>
+<ul class="space-y-3">
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/01_Privacy_Notice.pdf" target="_blank" rel="noopener">Privacy Notice</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/02_Cookie_Policy.pdf" target="_blank" rel="noopener">Cookie Policy</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="#" onclick="event.preventDefault();window.pariterCookies&amp;&amp;window.pariterCookies.open();">Cookie Preferences</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/03_Website_Terms_of_Use.pdf" target="_blank" rel="noopener">Terms of Use</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/04_Complaints_Handling_Procedure.pdf" target="_blank" rel="noopener">Complaints Handling</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/05_Accessibility_Statement.pdf" target="_blank" rel="noopener">Accessibility</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policies.html">All Policies</a></li>
+</ul>
+</div>
+<div class="md:col-span-3 md:col-start-10">
+<h5 class="text-label-caps font-label-caps text-white mb-6 font-bold">POLICIES</h5>
+<ul class="space-y-3">
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/06_Code_of_Ethics_and_Professional_Conduct.pdf" target="_blank" rel="noopener">Code of Ethics</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/07_Conflicts_of_Interest_Policy.pdf" target="_blank" rel="noopener">Conflicts of Interest</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/08_Anti_Bribery_and_Corruption_Policy.pdf" target="_blank" rel="noopener">Anti-Bribery &amp; Corruption</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/09_Equality_Diversity_and_Inclusion_Policy.pdf" target="_blank" rel="noopener">Equality, Diversity &amp; Inclusion</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/10_Modern_Slavery_and_Human_Trafficking_Policy.pdf" target="_blank" rel="noopener">Modern Slavery</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policies.html">All Policies</a></li>
+</ul>
+</div>
+<div class="md:col-span-12 border-t border-white/10 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-label-caps font-label-caps text-white/60">
+                    © 2026 Pariter Ltd. Registered in England &amp; Wales. Company Number: 05308864
+                </p>
+<img alt="RICS — Royal Institution of Chartered Surveyors" class="h-8 w-auto opacity-80" src="RICS-Logo-white.png"/>
+</div>
+</div>
+</footer>
+<script src="js/main.js" defer></script>
+</body></html>

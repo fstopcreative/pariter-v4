@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="google-site-verification" content="8LyqWIbD4WBzvc0MKeKoVrCRxdtpdLySIUa8LGVLQK0"/>
+<!-- Google Analytics is loaded by js/consent.js, only after the visitor accepts -->
+<script src="js/consent.js" defer></script>
+<title>Party Wall Matters | Pariter Consultants</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="js/tailwind-config.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link rel="icon" type="image/png" href="ico.png"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body class="text-on-surface">
+<!-- TopNavBar -->
+<header class="docked full-width top-0 sticky z-50 bg-[#04050ee6] border-b border-outline-variant/30 backdrop-blur-md">
+<div class="flex justify-between items-center w-full px-gutter max-w-container-max mx-auto h-20">
+<a href="index.html" class="flex items-center gap-4">
+<img alt="Pariter" class="h-10 w-10 object-contain" src="partierLogo-white.svg"/>
+<span class="text-headline-sm font-headline-sm font-bold tracking-tight text-primary">Pariter</span>
+</a>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-label-caps font-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="index.html">Home</a>
+<div class="relative">
+<button type="button" class="dropdown-toggle flex items-center gap-1 text-label-caps font-label-caps text-primary transition-colors duration-200" data-dropdown-toggle="services-menu" aria-haspopup="true" aria-expanded="false">
+Our Services
+<span class="material-symbols-outlined dropdown-chevron text-[16px]" aria-hidden="true">expand_more</span>
+</button>
+<div class="dropdown-menu absolute top-full left-0 mt-3 w-72 bg-surface-container border border-outline-variant/30 shadow-xl rounded-DEFAULT py-2 z-50" id="services-menu" role="menu">
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="consultancy-services.html">Consultancy Services</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="project-management.html">Project Management</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="party-wall-matters.html">Party Wall Matters</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="legal-surveying-dispute-resolution.html">Legal Surveying &amp; Dispute Resolution</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="expert-witness-services.html">Expert Witness Services</a>
+<a role="menuitem" class="block px-5 py-3 text-body-sm font-body-sm text-on-surface hover:bg-surface-container-high hover:text-primary transition-colors" href="property-services.html">Property Services</a>
+</div>
+</div>
+<a class="text-label-caps font-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="contact.html">Contact</a>
+</nav>
+<a href="contact.html" class="hidden md:inline-flex bg-primary text-on-primary px-8 py-3 rounded-DEFAULT font-button text-button hover:bg-on-primary-fixed-variant transition-colors duration-300 active:scale-95 shadow-sm">
+                Contact
+            </a>
+<button type="button" data-mobile-menu-toggle aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation menu" class="md:hidden inline-flex items-center justify-center w-11 h-11 text-primary -mr-2">
+<span class="material-symbols-outlined text-[28px]" aria-hidden="true">menu</span>
+</button>
+</div>
+<div id="mobile-menu" data-mobile-menu class="hidden md:hidden border-t border-outline-variant/30 bg-surface-container">
+<nav class="flex flex-col px-gutter max-w-container-max mx-auto py-4">
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="index.html">Home</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="consultancy-services.html">Consultancy Services</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="project-management.html">Project Management</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="party-wall-matters.html">Party Wall Matters</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="legal-surveying-dispute-resolution.html">Legal Surveying &amp; Dispute Resolution</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="expert-witness-services.html">Expert Witness Services</a>
+<a class="py-3 text-body-md font-body-md text-on-surface hover:text-primary transition-colors border-b border-outline-variant/20" href="property-services.html">Property Services</a>
+<a class="mt-4 bg-primary text-on-primary px-6 py-3 rounded-DEFAULT font-button text-button text-center shadow-sm" href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<main>
+<!-- Hero Image (full-width) -->
+<section class="relative w-full overflow-hidden bg-surface-container-high">
+<img alt="Party wall matters hero" class="w-full h-[60vh] md:h-[70vh] object-cover block" src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2400&q=80"/>
+</section>
+<!-- Page Title Section -->
+<section class="pt-[80px] pb-[40px] bg-surface">
+<div class="px-gutter max-w-container-max mx-auto w-full">
+<span class="text-label-caps font-label-caps text-on-secondary-container tracking-widest uppercase mb-6 block font-bold">What We Do</span>
+<h1 class="text-display-lg font-display-lg md:text-display-xl md:font-display-xl text-primary mb-6 leading-tight max-w-4xl">
+                    Party Wall Matters
+                </h1>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-3xl leading-relaxed">
+                    We Provide Party Wall Services to both Commercial &amp; Residential Clients
+                </p>
+</div>
+</section>
+<!-- Client Type Section -->
+<section class="pb-[120px] bg-surface">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-surface-container p-10 border border-outline-variant/30 hover:border-primary transition-all group shadow-sm hover:shadow-xl">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block" data-icon="apartment">apartment</span>
+<span class="text-label-caps font-label-caps text-primary/60 group-hover:text-primary transition-colors font-bold">CLIENTS</span>
+<h4 class="text-headline-sm font-headline-sm text-on-surface mt-2">Commercial</h4>
+</div>
+<div class="bg-surface-container p-10 border border-outline-variant/30 hover:border-primary transition-all group shadow-sm hover:shadow-xl">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block" data-icon="home">home</span>
+<span class="text-label-caps font-label-caps text-primary/60 group-hover:text-primary transition-colors font-bold">CLIENTS</span>
+<h4 class="text-headline-sm font-headline-sm text-on-surface mt-2">Residential</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- For Residential Clients — Overview -->
+<section class="py-[120px] bg-white">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid md:grid-cols-12 gap-element-gap mb-16">
+<div class="md:col-span-4">
+<span class="text-label-caps font-label-caps text-[#4b5375] mb-4 block font-bold">FOR RESIDENTIAL CLIENTS</span>
+<h2 class="text-label-caps font-label-caps text-[#4b5375] mb-3 font-bold">01</h2>
+<h3 class="text-display-lg font-display-lg text-[#0b0e23]">Overview</h3>
+</div>
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-lg font-body-lg text-[#4b5375] mb-6 leading-relaxed">
+                            You must tell your neighbours if you want to carry out any building work near or on your shared property boundary, or 'party wall', in England and Wales.
+                        </p>
+<p class="text-body-lg font-body-lg text-[#4b5375] mb-6 leading-relaxed">
+                            Party walls stand on the land of 2 or more owners and either:
+                        </p>
+<ul class="space-y-3 mb-6">
+<li class="flex gap-3 text-body-md font-body-md text-[#4b5375]">
+<span class="material-symbols-outlined text-[#0b0e23] text-[20px] mt-1" data-icon="check">check</span>
+<span>form part of a building</span>
+</li>
+<li class="flex gap-3 text-body-md font-body-md text-[#4b5375]">
+<span class="material-symbols-outlined text-[#0b0e23] text-[20px] mt-1" data-icon="check">check</span>
+<span>don't form part of a building, such as a garden wall (not wooden fences)</span>
+</li>
+</ul>
+<p class="text-body-lg font-body-lg text-[#4b5375] mb-10 leading-relaxed">
+                            Walls on one owner's land used by other owners (2 or more) to separate their buildings are also party walls.
+                        </p>
+<div class="bg-white p-8 border-l-4 border-[#0b0e23] shadow-sm">
+<h4 class="text-headline-sm font-headline-sm text-[#0b0e23] mb-3">Party structures</h4>
+<p class="text-body-md font-body-md text-[#4b5375] mb-4">
+                                You can also have a 'party structure'. This could be a floor or other structure that separates buildings or parts of buildings with different owners, eg flats.
+                            </p>
+<p class="text-body-md font-body-md text-[#4b5375] mb-4">
+                                Party wall agreements are different from planning permission or building regulations approval.
+                            </p>
+<p class="text-body-sm font-body-sm text-[#4b5375] italic">
+                                There are different rules in Scotland and Northern Ireland.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- For Residential Clients — Work to Notify -->
+<section class="py-[120px] bg-surface">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid md:grid-cols-12 gap-element-gap mb-12">
+<div class="md:col-span-4">
+<span class="text-label-caps font-label-caps text-on-secondary-container mb-4 block font-bold">FOR RESIDENTIAL CLIENTS</span>
+<h2 class="text-label-caps font-label-caps text-primary/70 mb-3 font-bold">02</h2>
+<h3 class="text-display-lg font-display-lg text-primary">Work you must tell your neighbour about</h3>
+</div>
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                            You must tell your neighbour if you want to:
+                        </p>
+<ul class="space-y-3 mb-10">
+<li class="flex gap-3 text-body-md font-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[20px] mt-1" data-icon="check">check</span>
+<span>build on or at the boundary of your 2 properties</span>
+</li>
+<li class="flex gap-3 text-body-md font-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[20px] mt-1" data-icon="check">check</span>
+<span>work on an existing party wall or party structure</span>
+</li>
+<li class="flex gap-3 text-body-md font-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[20px] mt-1" data-icon="check">check</span>
+<span>dig below and near to the foundation level of their property</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Examples Grid -->
+<div class="mb-12">
+<h4 class="text-headline-sm font-headline-sm text-on-surface mb-6">Examples of this type of work include:</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+<div class="bg-surface-container p-6 border border-outline-variant/30 hover:border-primary transition-all group shadow-sm hover:shadow-xl">
+<span class="material-symbols-outlined text-primary text-3xl mb-3 block" data-icon="add_business">add_business</span>
+<p class="text-body-md font-body-md text-on-surface font-semibold">building a new wall</p>
+</div>
+<div class="bg-surface-container p-6 border border-outline-variant/30 hover:border-primary transition-all group shadow-sm hover:shadow-xl">
+<span class="material-symbols-outlined text-primary text-3xl mb-3 block" data-icon="content_cut">content_cut</span>
+<p class="text-body-md font-body-md text-on-surface font-semibold">cutting into a party wall</p>
+</div>
+<div class="bg-surface-container p-6 border border-outline-variant/30 hover:border-primary transition-all group shadow-sm hover:shadow-xl">
+<span class="material-symbols-outlined text-primary text-3xl mb-3 block" data-icon="height">height</span>
+<p class="text-body-md font-body-md text-on-surface font-semibold">making a party wall taller, shorter or deeper</p>
+</div>
+<div class="bg-surface-container p-6 border border-outline-variant/30 hover:border-primary transition-all group shadow-sm hover:shadow-xl">
+<span class="material-symbols-outlined text-primary text-3xl mb-3 block" data-icon="fireplace">fireplace</span>
+<p class="text-body-md font-body-md text-on-surface font-semibold">removing chimneys from a party wall</p>
+</div>
+<div class="bg-surface-container p-6 border border-outline-variant/30 hover:border-primary transition-all group shadow-sm hover:shadow-xl">
+<span class="material-symbols-outlined text-primary text-3xl mb-3 block" data-icon="construction">construction</span>
+<p class="text-body-md font-body-md text-on-surface font-semibold">knocking down and rebuilding a party wall</p>
+</div>
+</div>
+</div>
+<div class="grid md:grid-cols-12 gap-element-gap">
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-md font-body-md text-on-surface-variant mb-6 leading-relaxed">
+                            Find more details of work you need to tell your neighbour about in the gov.uk party wall explanatory booklet.
+                        </p>
+<p class="text-body-lg font-body-lg text-on-surface-variant leading-relaxed">
+                            Your neighbours can't stop you from making changes to your property that are within the law, but they can affect how and when your works are carried out.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Mid-page Image (full-width) -->
+<section class="relative w-full overflow-hidden bg-surface-container-high">
+<img alt="Party wall section divider" class="w-full h-[50vh] md:h-[60vh] object-cover block" src="img/partier-pty-wall-metters.png"/>
+</section>
+<!-- What you don't need to tell them about -->
+<section class="py-[120px] bg-white">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid md:grid-cols-12 gap-element-gap">
+<div class="md:col-span-4">
+<h3 class="text-display-lg font-display-lg text-[#0b0e23]">What you don't need to tell them about</h3>
+</div>
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-lg font-body-lg text-[#4b5375] leading-relaxed">
+                            You don't need to tell your neighbour about minor changes, eg plastering, adding or replacing electrical wiring or sockets, or drilling to put up shelves or cabinets.
+                        </p>
+</div>
+</div>
+<div class="mt-16 pt-8 border-t border-[#0b0e23]/20">
+<p class="text-body-sm font-body-sm text-[#4b5375] italic max-w-3xl">
+                    Contains public sector information licensed under the Open Government Licence v3.0.
+                </p>
+</div>
+</div>
+</section>
+<!-- Section 03 — When and how to tell them -->
+<section class="py-[120px] bg-surface border-t border-outline-variant/20">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid md:grid-cols-12 gap-element-gap">
+<div class="md:col-span-4">
+<span class="text-label-caps font-label-caps text-on-secondary-container mb-4 block font-bold">FOR RESIDENTIAL CLIENTS</span>
+<h2 class="text-label-caps font-label-caps text-primary/70 mb-3 font-bold">03</h2>
+<h3 class="text-display-lg font-display-lg text-primary">When and how to tell them</h3>
+</div>
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                            You must give notice to your neighbour between 2 months and a year before you plan to start building works. Include what you plan on doing.
+                        </p>
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                            You can speak to your neighbour to explain the work you want to carry out, before giving notice in writing.
+                        </p>
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                            Find letter templates and more information on giving notice in the party wall explanatory booklet. It is really important that the information contained in the notice is correct as if the Works are disputed the notice can be called into question and might need to be served again if found to be inadequate. Pariter can prepare and serve the relevant notices on your behalf.
+                        </p>
+<p class="text-body-lg font-body-lg text-on-surface-variant leading-relaxed">
+                            Any agreement you reach should be in writing.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 04 — Reaching an agreement -->
+<section class="py-[120px] bg-white">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid md:grid-cols-12 gap-element-gap">
+<div class="md:col-span-4">
+<span class="text-label-caps font-label-caps text-[#4b5375] mb-4 block font-bold">FOR RESIDENTIAL CLIENTS</span>
+<h2 class="text-label-caps font-label-caps text-[#4b5375] mb-3 font-bold">04</h2>
+<h3 class="text-display-lg font-display-lg text-[#0b0e23]">Reaching an agreement with your neighbours</h3>
+</div>
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-lg font-body-lg text-[#4b5375] mb-6 leading-relaxed">
+                            Once you've given notice your neighbour can:
+                        </p>
+<ul class="space-y-3 mb-8">
+<li class="flex gap-3 text-body-md font-body-md text-[#4b5375]">
+<span class="material-symbols-outlined text-[#0b0e23] text-[20px] mt-1" data-icon="check">check</span>
+<span>give consent in writing</span>
+</li>
+<li class="flex gap-3 text-body-md font-body-md text-[#4b5375]">
+<span class="material-symbols-outlined text-[#0b0e23] text-[20px] mt-1" data-icon="check">check</span>
+<span>refuse consent, which will start the dispute resolution process</span>
+</li>
+<li class="flex gap-3 text-body-md font-body-md text-[#4b5375]">
+<span class="material-symbols-outlined text-[#0b0e23] text-[20px] mt-1" data-icon="check">check</span>
+<span>serve a counter notice requesting additional works be done at the same time (they'll have to pay for these if they benefit from the works)</span>
+</li>
+</ul>
+<p class="text-body-lg font-body-lg text-[#4b5375] mb-6 leading-relaxed">
+                            Your neighbour must let you know in writing within 14 days if they consent to your notice, and you must do the same with any counter notice. A counter notice must be served within a month of the first notice.
+                        </p>
+<p class="text-body-lg font-body-lg text-[#4b5375] mb-6 leading-relaxed">
+                            Find examples of counter notice letters in the party wall booklet.
+                        </p>
+<p class="text-body-lg font-body-lg text-[#4b5375] mb-6 leading-relaxed">
+                            Your neighbours need to respond to the notice. You can't assume that no response means they agree to the works.
+                        </p>
+<p class="text-body-lg font-body-lg text-[#4b5375] mb-10 leading-relaxed">
+                            The dispute resolution process will also start if they don't respond to your notice within the given time.
+                        </p>
+<div class="bg-white p-8 border-l-4 border-[#0b0e23] shadow-sm">
+<h4 class="text-headline-sm font-headline-sm text-[#0b0e23] mb-3">Who pays for the work</h4>
+<p class="text-body-md font-body-md text-[#4b5375] mb-4">
+                                You need to pay for any building works that you start on a party wall.
+                            </p>
+<p class="text-body-md font-body-md text-[#4b5375] mb-4">
+                                Your neighbour may have to meet a share of the cost if the work needs to be done because of defects or lack of repair. They will also need to pay if they ask for additional works to be done that will benefit them.
+                            </p>
+<p class="text-body-md font-body-md text-[#4b5375]">
+                                An appointed surveyor will set out who pays what if you can't agree.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 05 — If you can't agree -->
+<section class="py-[120px] bg-surface">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid md:grid-cols-12 gap-element-gap">
+<div class="md:col-span-4">
+<span class="text-label-caps font-label-caps text-on-secondary-container mb-4 block font-bold">FOR RESIDENTIAL CLIENTS</span>
+<h2 class="text-label-caps font-label-caps text-primary/70 mb-3 font-bold">05</h2>
+<h3 class="text-display-lg font-display-lg text-primary">If you can't agree</h3>
+</div>
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                            You must appoint a surveyor if you and your neighbour can't agree. You can appoint a surveyor together or each appoint your own. The surveyors will then agree on a 'party wall award'.
+                        </p>
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                            This is a legal document which says:
+                        </p>
+<ul class="space-y-3 mb-8">
+<li class="flex gap-3 text-body-md font-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[20px] mt-1" data-icon="check">check</span>
+<span>what work should happen</span>
+</li>
+<li class="flex gap-3 text-body-md font-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[20px] mt-1" data-icon="check">check</span>
+<span>how and when it will be carried out</span>
+</li>
+<li class="flex gap-3 text-body-md font-body-md text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[20px] mt-1" data-icon="check">check</span>
+<span>who will pay for which part and how much will be paid (including surveyor's fees)</span>
+</li>
+</ul>
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-10 leading-relaxed">
+                            You can't act as your own surveyor.
+                        </p>
+<div class="bg-surface-container-high p-8 border-l-4 border-white/40 shadow-sm mb-6">
+<h4 class="text-headline-sm font-headline-sm text-white mb-3">If your neighbour doesn't appoint a surveyor</h4>
+<p class="text-body-md font-body-md text-white/80">
+                                You can appoint a surveyor on behalf of your neighbour if they refuse or fail to do so themselves.
+                            </p>
+</div>
+<div class="bg-surface-container-high p-8 border-l-4 border-white/40 shadow-sm">
+<h4 class="text-headline-sm font-headline-sm text-white mb-3">If you don't agree with the award</h4>
+<p class="text-body-md font-body-md text-white/80">
+                                You can appeal against an award at a county court within 14 days of receiving it. You need to file an appellant's notice in a county court, explaining why you're appealing.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 06 — When works begin -->
+<section class="py-[120px] bg-white">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid md:grid-cols-12 gap-element-gap">
+<div class="md:col-span-4">
+<span class="text-label-caps font-label-caps text-[#4b5375] mb-4 block font-bold">FOR RESIDENTIAL CLIENTS</span>
+<h2 class="text-label-caps font-label-caps text-[#4b5375] mb-3 font-bold">06</h2>
+<h3 class="text-display-lg font-display-lg text-[#0b0e23]">When works begin</h3>
+</div>
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-lg font-body-lg text-[#4b5375] mb-6 leading-relaxed">
+                            When carrying out building works you must:
+                        </p>
+<ul class="space-y-3 mb-10">
+<li class="flex gap-3 text-body-md font-body-md text-[#4b5375]">
+<span class="material-symbols-outlined text-[#0b0e23] text-[20px] mt-1" data-icon="check">check</span>
+<span>avoid causing unnecessary inconvenience</span>
+</li>
+<li class="flex gap-3 text-body-md font-body-md text-[#4b5375]">
+<span class="material-symbols-outlined text-[#0b0e23] text-[20px] mt-1" data-icon="check">check</span>
+<span>protect your neighbour's property from damage caused by the works, and fix or pay for any damage that is caused</span>
+</li>
+</ul>
+<div class="bg-white p-8 border-l-4 border-[#0b0e23] shadow-sm">
+<h4 class="text-headline-sm font-headline-sm text-[#0b0e23] mb-3">Access to your neighbour's property</h4>
+<p class="text-body-md font-body-md text-[#4b5375] mb-4">
+                                Your neighbour must allow surveyors and workmen access to their property during usual working hours to carry out the building works.
+                            </p>
+<p class="text-body-md font-body-md text-[#4b5375]">
+                                They must be given 14 days' notice except in an emergency.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Value Section -->
+<section class="py-[120px] bg-surface">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="grid md:grid-cols-12 gap-element-gap">
+<div class="md:col-span-4">
+<h2 class="text-label-caps font-label-caps text-on-secondary-container mb-4 font-bold">VALUE</h2>
+<h3 class="text-display-lg font-display-lg text-primary">Two Decades of Service.</h3>
+</div>
+<div class="md:col-span-7 md:col-start-6">
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-12 leading-relaxed">
+                            Pariter have been undertaking Party Wall services since the inception of the Act over two decades ago. We offer excellent advice and support that is economic, effective, and efficient.
+                        </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-outline-variant/30">
+<div>
+<span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="payments">payments</span>
+<h4 class="text-headline-sm font-headline-sm text-on-surface mb-2">Economic</h4>
+</div>
+<div>
+<span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="target">target</span>
+<h4 class="text-headline-sm font-headline-sm text-on-surface mb-2">Effective</h4>
+</div>
+<div>
+<span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="bolt">bolt</span>
+<h4 class="text-headline-sm font-headline-sm text-on-surface mb-2">Efficient</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Closing Image (full-width) -->
+<section class="relative w-full overflow-hidden bg-surface-container-high" id="contact">
+<img alt="Party wall matters closing" class="w-full h-[60vh] md:h-[70vh] object-cover block" src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=2400&q=80"/>
+</section>
+</main>
+<!-- CTA -->
+<section class="bg-surface">
+<div class="w-full px-gutter max-w-container-max mx-auto py-16 md:py-20 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
+<h3 class="text-headline-md md:text-headline-lg font-headline-md text-on-surface font-semibold max-w-2xl">Want to hear more about our services and how we can support you?</h3>
+<a href="contact.html" class="bg-primary text-on-primary px-8 py-3 rounded-DEFAULT font-button text-button hover:bg-on-primary-fixed-variant transition-colors duration-300 active:scale-95 shadow-sm whitespace-nowrap">
+                Contact us
+            </a>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#04050e] border-t border-white/10">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-element-gap w-full px-gutter max-w-container-max mx-auto py-16">
+<div class="md:col-span-4">
+<div class="flex items-center gap-3 mb-6">
+<img alt="Pariter Logo" class="h-8 w-8 object-contain" src="partierLogo-white.svg"/>
+<span class="text-headline-sm font-headline-sm text-white font-bold">Pariter</span>
+</div>
+<p class="text-body-sm font-body-sm text-white/70 max-w-xs">
+                    Professional consultancy services for public and private sector clients focusing on strategic growth and operational excellence.
+                </p>
+</div>
+<div class="md:col-span-2 md:col-start-5">
+<h5 class="text-label-caps font-label-caps text-white mb-6 font-bold">OUR SERVICES</h5>
+<ul class="space-y-3">
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="consultancy-services.html">Consultancy Services</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="project-management.html">Project Management</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="party-wall-matters.html">Party Wall Matters</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="legal-surveying-dispute-resolution.html">Legal Surveying &amp; Dispute Resolution</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="expert-witness-services.html">Expert Witness Services</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="property-services.html">Property Services</a></li>
+</ul>
+</div>
+<div class="md:col-span-3 md:col-start-7">
+<h5 class="text-label-caps font-label-caps text-white mb-6 font-bold">LEGAL</h5>
+<ul class="space-y-3">
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/01_Privacy_Notice.pdf" target="_blank" rel="noopener">Privacy Notice</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/02_Cookie_Policy.pdf" target="_blank" rel="noopener">Cookie Policy</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="#" onclick="event.preventDefault();window.pariterCookies&amp;&amp;window.pariterCookies.open();">Cookie Preferences</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/03_Website_Terms_of_Use.pdf" target="_blank" rel="noopener">Terms of Use</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/04_Complaints_Handling_Procedure.pdf" target="_blank" rel="noopener">Complaints Handling</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/05_Accessibility_Statement.pdf" target="_blank" rel="noopener">Accessibility</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policies.html">All Policies</a></li>
+</ul>
+</div>
+<div class="md:col-span-3 md:col-start-10">
+<h5 class="text-label-caps font-label-caps text-white mb-6 font-bold">POLICIES</h5>
+<ul class="space-y-3">
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/06_Code_of_Ethics_and_Professional_Conduct.pdf" target="_blank" rel="noopener">Code of Ethics</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/07_Conflicts_of_Interest_Policy.pdf" target="_blank" rel="noopener">Conflicts of Interest</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/08_Anti_Bribery_and_Corruption_Policy.pdf" target="_blank" rel="noopener">Anti-Bribery &amp; Corruption</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/09_Equality_Diversity_and_Inclusion_Policy.pdf" target="_blank" rel="noopener">Equality, Diversity &amp; Inclusion</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policy/10_Modern_Slavery_and_Human_Trafficking_Policy.pdf" target="_blank" rel="noopener">Modern Slavery</a></li>
+<li><a class="text-body-sm font-body-sm text-white/70 hover:text-white transition-colors" href="policies.html">All Policies</a></li>
+</ul>
+</div>
+<div class="md:col-span-12 border-t border-white/10 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-label-caps font-label-caps text-white/60">
+                    © 2026 Pariter Ltd. Registered in England &amp; Wales. Company Number: 05308864
+                </p>
+<img alt="RICS — Royal Institution of Chartered Surveyors" class="h-8 w-auto opacity-80" src="RICS-Logo-white.png"/>
+</div>
+</div>
+</footer>
+<script src="js/main.js" defer></script>
+</body></html>
