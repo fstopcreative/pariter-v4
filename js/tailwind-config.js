@@ -52,7 +52,7 @@ tailwind.config = {
                 "on-tertiary-fixed-variant": "#c5c9e8"
             },
             "borderRadius": {
-                "DEFAULT": "0.375rem",
+                "DEFAULT": "5px",
                 "lg": "0.5rem",
                 "xl": "0.75rem",
                 "full": "9999px"
