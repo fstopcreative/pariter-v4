@@ -1,7 +1,45 @@
 document.addEventListener('DOMContentLoaded', () => {
     initDropdowns();
     initMobileMenu();
+    initLottieLogo();
 });
+
+// Swaps the static SVG logo for the Lottie animation. The SVG stays in the
+// markup as the fallback, so the logo still shows if the CDN is blocked or
+// JavaScript is off.
+function initLottieLogo() {
+    const hosts = document.querySelectorAll('[data-lottie-logo]');
+    if (!hosts.length || typeof lottie === 'undefined') return;
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    hosts.forEach(host => {
+        const path = host.getAttribute('data-lottie-src');
+        if (!path) return;
+
+        let animation;
+        try {
+            host.innerHTML = '';
+            animation = lottie.loadAnimation({
+                container: host,
+                renderer: 'svg',
+                loop: !reduceMotion,
+                autoplay: !reduceMotion,
+                path: path,
+                rendererSettings: { progressiveLoad: true }
+            });
+        } catch (error) {
+            return;
+        }
+
+        // Hold the finished frame rather than animating for reduced-motion users.
+        if (reduceMotion) {
+            animation.addEventListener('DOMLoaded', () => {
+                animation.goToAndStop(animation.totalFrames - 1, true);
+            });
+        }
+    });
+}
 
 function initDropdowns() {
     const toggles = document.querySelectorAll('[data-dropdown-toggle]');
