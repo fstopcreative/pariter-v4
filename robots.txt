@@ -1,0 +1,28 @@
+# https://pariter.ltd
+
+User-agent: *
+Allow: /
+
+# The /service, /service-2, /service-3 and /service-4 pages duplicate the named
+# service pages. They are deliberately NOT disallowed here: they carry
+# <meta name="robots" content="noindex, follow"> plus a canonical to the page
+# they duplicate, and a crawler has to fetch them to see that. Blocking them
+# would hide the noindex and leave the URLs eligible to appear in results.
+
+# Assistants and answer engines are welcome; see /llms.txt for a site summary.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://pariter.ltd/sitemap.xml
